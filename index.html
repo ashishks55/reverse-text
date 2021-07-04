@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Debugging in JavScript</title>
+		<!-- Importing Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		<!-- importing CSS file -->
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body class="app-container">
+		<!-- form to enter name -->
+		<form onsubmit="submitName(event)">
+			<h3>Reverse my Name!</h3>
+			<div class="input-group">
+				<input id="name_input" name="name_input" autocomplete="off" type="text" class="form-control" placeholder="Enter Name" required>
+			</div>
+			<button type="submit" class="btn btn-info">Submit</button>
+		</form>
+		<!-- output p tag -->
+		<p id="reversed_name"></p>
+		<!-- Adding Script -->
+		<script src="./app.js"></script>
+	</body>
+</html>
